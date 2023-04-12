@@ -106,7 +106,7 @@ jobs:
         }
       shell: pwsh
 
-    # Download Artifact #2 and verify the correctness of the content
+    # Download Artifact #2 and verify the correctness of the code
     - name: 'Download artifact #2'
       uses: actions/download-artifact@v3
       with:
